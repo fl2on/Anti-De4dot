@@ -2,12 +2,14 @@
 
 Anti-De4dot safeguards .NET binaries from De4dot decompiler, protecting intellectual property from unauthorized access. This tool is independent, requiring no additional modules or libraries. However, it's not foolproof and should be combined with other security measures.
 
-
+## Translation
+| 🇺🇸 | 🇨🇳 | 🇹🇼 | 🇮🇳 | 🇫🇷 | 🇦🇪 | 🇩🇪 | 🇯🇵 | 🇪🇸 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| [English](README.md) | [简体中文](README.zh-CN.md) | [繁体中文](README.zh-TW.md) | [हिंदी](README.hi.md) | [Française](README.fr.md) | [عربى](README.ar.md) | [Deutsch](README.de.md) | [日本語](README.ja.md) | [Español](README.es.md) |
 
 ## Screenshots
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/1008195045960204349/1097785288748699648/New_Website_Blue_Mockup_Instagram_-_Laptop.png)
-
 
 ## Features
 
