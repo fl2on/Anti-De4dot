@@ -28,7 +28,7 @@ Para ejecutar pruebas
 
 ## Licencia
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[CON](https://choosealicense.com/licenses/mit/)
 
 ## Autores
 
