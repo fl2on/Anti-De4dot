@@ -15,7 +15,7 @@
 ## سمات
 
 -   يمكنك إسقاط التطبيق أو كتابة المسار إلى الملف.
--   الإنشاء العشوائي لأسماء الأنواع: يستخدم الرمز مثيلاً لفئة "RandomNumberGenerator" لإنشاء صفيف من وحدات البايت العشوائية التي تُستخدم لإنشاء أسماء أنواع فريدة.
+-   Random generation of type names: The code uses an instance of the 	"RandomNumberGenerator" class to generate an array of random bytes that are used to create unique type names.
 -   استخدام كتل "استخدام": يستخدم الكود كتل "استخدام" لضمان تنظيف الكائنات بشكل صحيح بعد الاستخدام ولتحرير الموارد مثل الذاكرة المستخدمة بواسطة مثيل "RandomNumberGenerator".
 
 ## إجراء الاختبارات
