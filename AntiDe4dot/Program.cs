@@ -98,6 +98,7 @@ namespace AntiDe4dot
             Console.ReadKey();
         }
 
+        //Message Printer Function
         private static void PrintMessage(string message, ConsoleColor color = ConsoleColor.White)
         {
             Console.ForegroundColor = color;
