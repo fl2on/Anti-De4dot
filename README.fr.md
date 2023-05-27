@@ -1,4 +1,4 @@
-# anti-d4dot
+# Anti-De4dot
 
 Anti-De4dot protège les fichiers binaires .NET du décompilateur De4dot, protégeant ainsi la propriété intellectuelle des accès non autorisés. Cet outil est indépendant, ne nécessitant aucun module ou bibliothèque supplémentaire. Cependant, ce n'est pas infaillible et devrait être combiné avec d'autres mesures de sécurité.
 
