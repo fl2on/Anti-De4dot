@@ -1,12 +1,12 @@
-# 抗d4dot
+# 抗De4dot
 
 Anti-De4dot 保护 .NET 二进制文件免受 De4dot 反编译器的侵害，保护知识产权免受未经授权的访问。该工具是独立的，不需要额外的模块或库。然而，它并非万无一失，应该与其他安全措施结合使用。
 
 ## 翻译
 
-| 🇺🇸            | 🇨🇳                    | 🇹🇼                    | 🇮🇳                | 🇫🇷               | 🇦🇪                | 🇩🇪               | 🇯🇵                | 🇪🇸                 |
-| --------------- | ----------------------- | ----------------------- | ------------------- | ------------------ | ------------------- | ------------------ | ------------------- | -------------------- |
-| [英语](README.md) | [简体中文](README.zh-CN.md) | [繁体中文](README.zh-TW.md) | [印地语](README.hi.md) | [法语](README.fr.md) | [阿拉伯](README.ar.md) | [德语](README.de.md) | [日本人](README.ja.md) | [西班牙语](README.es.md) |
+| 🇺🇸            | 🇨🇳                    | 🇹🇼                    | 🇮🇳                | 🇫🇷               | 🇦🇪                 | 🇩🇪               | 🇯🇵                | 🇪🇸                 |
+| --------------- | ----------------------- | ----------------------- | ------------------- | ------------------ | -------------------- | ------------------ | ------------------- | -------------------- |
+| [英语](README.md) | [简体中文](README.zh-CN.md) | [繁体中文](README.zh-TW.md) | [印地语](README.hi.md) | [法语](README.fr.md) | [عربى](README.ar.md) | [德语](README.de.md) | [日本人](README.ja.md) | [西班牙语](README.es.md) |
 
 ## 截图
 
@@ -26,15 +26,15 @@ Anti-De4dot 保护 .NET 二进制文件免受 De4dot 反编译器的侵害，保
   Just open it or drop the application.
 ```
 
-## 执照
+## License
 
 [和](https://choosealicense.com/licenses/mit/)
 
-## 作者
+## Authors
 
 -   [@qzxtu](https://www.github.com/qzxtu)
 
 ## 支持
 
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/nova355killer)  
-[![Ko-Fi](https://img.shields.io/badge/kofi-00457C?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nova355)
+ [![Ko-Fi](https://img.shields.io/badge/kofi-00457C?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nova355)
