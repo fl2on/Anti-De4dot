@@ -1,4 +1,4 @@
-# anti-d4dot
+# Anti-De4dot
 
 Anti-De4dot protege los binarios .NET del descompilador De4dot, protegiendo la propiedad intelectual del acceso no autorizado. Esta herramienta es independiente y no requiere módulos ni bibliotecas adicionales. Sin embargo, no es infalible y debe combinarse con otras medidas de seguridad.
 
@@ -34,7 +34,7 @@ Para ejecutar pruebas
 
 -   [@qzxtu](https://www.github.com/qzxtu)
 
-## Apoyo
+## Support
 
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/nova355killer)  
 [![Ko-Fi](https://img.shields.io/badge/kofi-00457C?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nova355)
