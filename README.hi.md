@@ -1,6 +1,6 @@
-# विरोधी d4dot
+# एंटी-डी4डॉट
 
-Anti-De4dot safeguards .NET binaries from De4dot decompiler, protecting intellectual property from unauthorized access. This tool is independent, requiring no additional modules or libraries. However, it's not foolproof and should be combined with other security measures.
+De4dot decompiler से .NET बायनेरिज़ एंटी-De4dot सुरक्षा उपाय, अनधिकृत पहुँच से बौद्धिक संपदा की रक्षा करना। यह उपकरण स्वतंत्र है, इसके लिए किसी अतिरिक्त मॉड्यूल या लाइब्रेरी की आवश्यकता नहीं है। हालांकि, यह फुलप्रूफ नहीं है और इसे अन्य सुरक्षा उपायों के साथ जोड़ा जाना चाहिए।
 
 ## अनुवाद
 
@@ -15,8 +15,8 @@ Anti-De4dot safeguards .NET binaries from De4dot decompiler, protecting intellec
 ## विशेषताएँ
 
 -   आप एप्लिकेशन को छोड़ सकते हैं या फ़ाइल का पथ लिख सकते हैं।
--   प्रकार के नामों की यादृच्छिक पीढ़ी: अद्वितीय प्रकार के नाम बनाने के लिए उपयोग किए जाने वाले यादृच्छिक बाइट्स की एक सरणी उत्पन्न करने के लिए कोड "RandomNumberGenerator" वर्ग के एक उदाहरण का उपयोग करता है।
--   "उपयोग" ब्लॉक का उपयोग: कोड यह सुनिश्चित करने के लिए "उपयोग" ब्लॉक का उपयोग करता है कि वस्तुओं को उपयोग के बाद ठीक से साफ किया जाता है और "रैंडमनंबरजेनरेटर" उदाहरण द्वारा उपयोग की जाने वाली मेमोरी जैसे संसाधनों को मुक्त करने के लिए।
+-   प्रकार के नामों की यादृच्छिक पीढ़ी: कोड यादृच्छिक बाइट्स की एक सरणी उत्पन्न करने के लिए "RandomNumberGenerator" वर्ग के एक उदाहरण का उपयोग करता है जो कि अद्वितीय प्रकार के नाम बनाने के लिए उपयोग किया जाता है।
+-   "उपयोग" ब्लॉक का उपयोग: कोड "उपयोग" ब्लॉक का उपयोग यह सुनिश्चित करने के लिए करता है कि वस्तुओं को उपयोग के बाद ठीक से साफ किया जाए और "रैंडमनंबरजेनरेटर" उदाहरण द्वारा उपयोग की जाने वाली मेमोरी जैसे संसाधनों को मुक्त किया जाए।
 
 ## चल रहे परीक्षण
 
@@ -34,7 +34,7 @@ Anti-De4dot safeguards .NET binaries from De4dot decompiler, protecting intellec
 
 -   [@qzxtu](https://www.github.com/qzxtu)
 
-## Support
+## सहायता
 
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/nova355killer)  
 [![Ko-Fi](https://img.shields.io/badge/kofi-00457C?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nova355)
