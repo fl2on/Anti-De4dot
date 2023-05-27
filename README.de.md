@@ -1,4 +1,4 @@
-# Anti-d4dot
+# Anti-De4dot
 
 Anti-De4dot schützt .NET-Binärdateien vor dem De4dot-Dekompiler und schützt so geistiges Eigentum vor unbefugtem Zugriff. Dieses Tool ist unabhängig und erfordert keine zusätzlichen Module oder Bibliotheken. Es ist jedoch nicht narrensicher und sollte mit anderen Sicherheitsmaßnahmen kombiniert werden.
 
