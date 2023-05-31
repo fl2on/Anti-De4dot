@@ -4,9 +4,9 @@ Anti-De4dot protege los binarios .NET del descompilador De4dot, protegiendo la p
 
 ## Traducción
 
-| 🇺🇸                | 🇨🇳                                  | 🇹🇼                                 | 🇮🇳                  | 🇫🇷                     | 🇦🇪                  | 🇩🇪                   | 🇯🇵                    | 🇪🇸                    |
-| ------------------- | ------------------------------------- | ------------------------------------ | --------------------- | ------------------------ | --------------------- | ---------------------- | ----------------------- | ----------------------- |
-| [Inglés](README.md) | [chino simplificado](README.zh-CN.md) | [chino tradicional](README.zh-TW.md) | [hindi](README.hi.md) | [Francésa](README.fr.md) | [árabe](README.ar.md) | [Alemán](README.de.md) | [japonés](README.ja.md) | [Español](README.es.md) |
+| 🇺🇸                | 🇨🇳                                  | 🇹🇼                                 | 🇮🇳                  | 🇫🇷                     | 🇦🇪                  | 🇩🇪                    | 🇯🇵                    | 🇪🇸                    |
+| ------------------- | ------------------------------------- | ------------------------------------ | --------------------- | ------------------------ | --------------------- | ----------------------- | ----------------------- | ----------------------- |
+| [Inglés](README.md) | [chino simplificado](README.zh-CN.md) | [chino tradicional](README.zh-TW.md) | [hindi](README.hi.md) | [Francésa](README.fr.md) | [árabe](README.ar.md) | [Deutsch](README.de.md) | [japonés](README.ja.md) | [Español](README.es.md) |
 
 ## capturas de pantalla
 
@@ -34,7 +34,7 @@ Para ejecutar pruebas
 
 -   [@qzxtu](https://www.github.com/qzxtu)
 
-## Support
+## Apoyo
 
 [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/nova355killer)  
 [![Ko-Fi](https://img.shields.io/badge/kofi-00457C?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nova355)
