@@ -1,6 +1,6 @@
 # 抗De4dot
 
-Anti-De4dot 保護 .NET 二進製文件免受 De4dot 反編譯器的侵害，保護知識產權免受未經授權的訪問。該工具是獨立的，不需要額外的模塊或庫。然而，它並非萬無一失，應該與其他安全措施結合使用。
+Anti-De4dot safeguards .NET binaries from De4dot decompiler, protecting intellectual property from unauthorized access. This tool is independent, requiring no additional modules or libraries. However, it's not foolproof and should be combined with other security measures.
 
 ## 翻譯
 
