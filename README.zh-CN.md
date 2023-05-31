@@ -15,7 +15,7 @@ Anti-De4dot 保护 .NET 二进制文件免受 De4dot 反编译器的侵害，保
 ## 特征
 
 -   您可以删除应用程序或写入文件的路径。
--   类型名称的随机生成：代码使用“RandomNumberGenerator”类的一个实例来生成一个随机字节数组，用于创建唯一的类型名称。
+-   类型名称的随机生成：代码使用“RandomNumberGenerator”类的一个实例来生成用于创建唯一类型名称的随机字节数组。
 -   使用“using”块：代码使用“using”块来确保对象在使用后得到正确清理，并释放“RandomNumberGenerator”实例使用的内存等资源。
 
 ## 运行测试
