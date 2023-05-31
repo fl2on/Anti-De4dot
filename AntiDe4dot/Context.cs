@@ -1,4 +1,4 @@
-﻿using dnlib.DotNet;
+using dnlib.DotNet;
 
 namespace AntiDe4dot
 {
@@ -8,15 +8,11 @@ namespace AntiDe4dot
         {
             Assembly = asm;
             ManifestModule = asm.ManifestModule;
-            GlobalType = ManifestModule.GlobalType;
-            Imp = new Importer(ManifestModule);
-            cctor = GlobalType.FindOrCreateStaticConstructor();
+            var globalType = ManifestModule.GlobalType;
+            globalType.FindOrCreateStaticConstructor();
         }
 
         public readonly AssemblyDef Assembly;
         public readonly ModuleDef ManifestModule;
-        public readonly TypeDef GlobalType;
-        public readonly Importer Imp;
-        public readonly MethodDef cctor;
     }
 }
