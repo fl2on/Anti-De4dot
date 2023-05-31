@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
@@ -7,20 +7,20 @@ using dnlib.DotNet.Writer;
 
 namespace AntiDe4dot
 {
-    internal class Program
+    internal abstract class Program
     {
-        public static void RenameTypes(Context context, int numTypes)
+        private static void RenameTypes(Context context, int numTypes)
         {
-            using (RandomNumberGenerator rng = RandomNumberGenerator.Create())
+            using (var rng = RandomNumberGenerator.Create())
             {
-                byte[] buffer = new byte[8];
-                foreach (ModuleDef module in context.Assembly.Modules)
+                var buffer = new byte[8];
+                foreach (var module in context.Assembly.Modules)
                 {
                     InterfaceImpl globalItem = new InterfaceImplUser(module.GlobalType);
-                    for (int i = 0; i < numTypes; i++)
+                    for (var i = 0; i < numTypes; i++)
                     {
                         rng.GetBytes(buffer);
-                        string typeName = $"Type_{BitConverter.ToString(buffer).Replace("-", "").Substring(0, 16)}_Qzxtu";
+                        var typeName = $"Type_{BitConverter.ToString(buffer).Replace("-", "").Substring(0, 16)}_Qzxtu";
                         TypeDef newTypeDef = new TypeDefUser(string.Empty, typeName, module.CorLibTypes.GetTypeRef("System", "Attribute"));
                         InterfaceImpl newInterfaceImpl = new InterfaceImplUser(newTypeDef);
                         module.Types.Add(newTypeDef);
@@ -32,15 +32,18 @@ namespace AntiDe4dot
                     if (assemblyCompanyAttr != null)
                     {
                         assemblyCompanyAttr.ConstructorArguments.Clear();
-                        assemblyCompanyAttr.ConstructorArguments.Add(new CAArgument(module.CorLibTypes.String, "Qzxtu Anti-D4dot"));
+                        assemblyCompanyAttr.ConstructorArguments.Add(new CAArgument(module.CorLibTypes.String,
+                            "Qzxtu Anti-D4dot"));
                     }
                     else
                     {
-                        var assemblyCompanyRef = module.CorLibTypes.GetTypeRef("System.Reflection", "AssemblyCompanyAttribute");
+                        var assemblyCompanyRef =
+                            module.CorLibTypes.GetTypeRef("System.Reflection", "AssemblyCompanyAttribute");
                         var assemblyCompanyTypeDef = assemblyCompanyRef.ResolveTypeDef();
                         var assemblyCompanyCtor = assemblyCompanyTypeDef.FindConstructors().Single();
                         var assemblyCompanyAttrType = new CustomAttribute(assemblyCompanyCtor);
-                        assemblyCompanyAttrType.ConstructorArguments.Add(new CAArgument(module.CorLibTypes.String, "Qzxtu Anti-D4dot"));
+                        assemblyCompanyAttrType.ConstructorArguments.Add(new CAArgument(module.CorLibTypes.String,
+                            "Qzxtu Anti-D4dot"));
                         module.Assembly.CustomAttributes.Add(assemblyCompanyAttrType);
                     }
                 }
@@ -49,11 +52,11 @@ namespace AntiDe4dot
 
         private static void Main(string[] args)
         {
-            string inputFilePath = args.FirstOrDefault();
+            var inputFilePath = args.FirstOrDefault();
             if (string.IsNullOrEmpty(inputFilePath))
             {
                 Console.WriteLine("Please enter the path to the file you want to protect:");
-                inputFilePath = Console.ReadLine().Trim();
+                inputFilePath = Console.ReadLine()?.Trim();
 
                 if (!File.Exists(inputFilePath))
                 {
@@ -62,9 +65,9 @@ namespace AntiDe4dot
                 }
             }
 
-            string outputFilePath = Path.Combine(Path.GetDirectoryName(inputFilePath), Path.GetFileNameWithoutExtension(inputFilePath) + "-Anti_D4dot.exe");
+            var outputFilePath = Path.Combine(Path.GetDirectoryName(inputFilePath) ?? string.Empty, Path.GetFileNameWithoutExtension(inputFilePath) + "-Anti_D4dot.exe");
 
-            AssemblyDef assemblyDef = null;
+            AssemblyDef assemblyDef;
             try
             {
                 assemblyDef = AssemblyDef.Load(inputFilePath);
@@ -75,11 +78,11 @@ namespace AntiDe4dot
                 return;
             }
 
-            Context context = new Context(assemblyDef);
-            int numTypes = 100;
+            var context = new Context(assemblyDef);
+            const int numTypes = 100;
             RenameTypes(context, numTypes);
 
-            ModuleWriterOptions moduleWriterOptions = new ModuleWriterOptions(context.ManifestModule)
+            var moduleWriterOptions = new ModuleWriterOptions(context.ManifestModule)
             {
                 Logger = null
             };
