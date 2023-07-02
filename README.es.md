@@ -4,9 +4,9 @@ Anti-De4dot protege los binarios .NET del descompilador De4dot, protegiendo la p
 
 ## Traducción
 
-| 🇺🇸                | 🇨🇳                                  | 🇹🇼                                 | 🇮🇳                  | 🇫🇷                     | 🇦🇪                  | 🇩🇪                    | 🇯🇵                    | 🇪🇸                    |
-| ------------------- | ------------------------------------- | ------------------------------------ | --------------------- | ------------------------ | --------------------- | ----------------------- | ----------------------- | ----------------------- |
-| [Inglés](README.md) | [chino simplificado](README.zh-CN.md) | [chino tradicional](README.zh-TW.md) | [hindi](README.hi.md) | [Francésa](README.fr.md) | [árabe](README.ar.md) | [Deutsch](README.de.md) | [japonés](README.ja.md) | [Español](README.es.md) |
+| 🇺🇸                | 🇨🇳                                  | 🇹🇼                                 | 🇮🇳                  | 🇫🇷                     | 🇦🇪                  | 🇩🇪                   | 🇯🇵                    | 🇪🇸                    |
+| ------------------- | ------------------------------------- | ------------------------------------ | --------------------- | ------------------------ | --------------------- | ---------------------- | ----------------------- | ----------------------- |
+| [Inglés](README.md) | [chino simplificado](README.zh-CN.md) | [chino tradicional](README.zh-TW.md) | [hindi](README.hi.md) | [Francésa](README.fr.md) | [árabe](README.ar.md) | [Alemán](README.de.md) | [japonés](README.ja.md) | [Español](README.es.md) |
 
 ## capturas de pantalla
 
@@ -18,7 +18,7 @@ Anti-De4dot protege los binarios .NET del descompilador De4dot, protegiendo la p
 -   Generación aleatoria de nombres de tipos: el código usa una instancia de la clase "RandomNumberGenerator" para generar una matriz de bytes aleatorios que se usan para crear nombres de tipos únicos.
 -   Uso de bloques "usando": el código usa bloques "usando" para garantizar que los objetos se limpien correctamente después de su uso y para liberar recursos como la memoria utilizada por la instancia "RandomNumberGenerator".
 
-## Ejecución de pruebas
+## Running Tests
 
 Para ejecutar pruebas
 
