@@ -4,15 +4,13 @@ namespace AntiDe4dot
 {
     public class Context
     {
-        public Context(AssemblyDef asm)
+        public Context(ModuleDefMD moduleDef)
         {
-            Assembly = asm;
-            ManifestModule = asm.ManifestModule;
-            var globalType = ManifestModule.GlobalType;
+            ModuleDef = moduleDef;
+            var globalType = ModuleDef.GlobalType;
             globalType.FindOrCreateStaticConstructor();
         }
 
-        public readonly AssemblyDef Assembly;
-        public readonly ModuleDef ManifestModule;
+        public readonly ModuleDefMD ModuleDef;
     }
 }
