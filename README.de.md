@@ -12,7 +12,7 @@ Anti-De4dot schützt .NET-Binärdateien vor dem De4dot-Dekompiler und schützt s
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/1008195045960204349/1097785288748699648/New_Website_Blue_Mockup_Instagram_-_Laptop.png)
 
-## Features
+## Merkmale
 
 -   Sie können die Anwendung löschen oder den Pfad zur Datei schreiben.
 -   Zufällige Generierung von Typnamen: Der Code verwendet eine Instanz der Klasse „RandomNumberGenerator“, um ein Array zufälliger Bytes zu generieren, die zur Erstellung eindeutiger Typnamen verwendet werden.
