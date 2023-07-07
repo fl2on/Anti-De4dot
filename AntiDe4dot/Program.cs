@@ -75,6 +75,7 @@ namespace AntiDe4dot
             PrintMessage("Press any key to exit.");
             Console.ReadKey();
         }
+        
         private static bool IsNetCoreApp(string filePath)
         {
             if (Path.GetExtension(filePath).Equals(".exe", StringComparison.OrdinalIgnoreCase))
