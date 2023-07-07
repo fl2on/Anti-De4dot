@@ -16,9 +16,9 @@ Anti-De4dot protege los binarios .NET del descompilador De4dot, protegiendo la p
 
 -   Puede soltar la aplicación o escribir la ruta al archivo.
 -   Generación aleatoria de nombres de tipos: el código usa una instancia de la clase "RandomNumberGenerator" para generar una matriz de bytes aleatorios que se usan para crear nombres de tipos únicos.
--   Uso de bloques "usando": el código usa bloques "usando" para garantizar que los objetos se limpien correctamente después de su uso y para liberar recursos como la memoria utilizada por la instancia "RandomNumberGenerator".
+-   Use of "using" blocks: The code uses "using" blocks to ensure that objects are properly cleaned up after use and to free resources such as memory used by the "RandomNumberGenerator" instance.
 
-## Running Tests
+## Ejecución de pruebas
 
 Para ejecutar pruebas
 
