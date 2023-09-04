@@ -1,12 +1,12 @@
 # Anti-De4dot
 
-Anti-De4dot protège les fichiers binaires .NET du décompilateur De4dot, protégeant ainsi la propriété intellectuelle des accès non autorisés. Cet outil est indépendant, ne nécessitant aucun module ou bibliothèque supplémentaire. Cependant, ce n'est pas infaillible et devrait être combiné avec d'autres mesures de sécurité.
+Anti-De4dot protège les binaires .NET du décompilateur De4dot, protégeant ainsi la propriété intellectuelle contre tout accès non autorisé. Cet outil est indépendant et ne nécessite aucun module ou bibliothèque supplémentaire. Cependant, cette mesure n’est pas infaillible et doit être combinée à d’autres mesures de sécurité.
 
 ## Traduction
 
-| 🇺🇸                 | 🇨🇳                                 | 🇹🇼                                    | 🇮🇳                  | 🇫🇷                      | 🇦🇪                  | 🇩🇪                     | 🇯🇵                | 🇪🇸                     |
-| -------------------- | ------------------------------------ | --------------------------------------- | --------------------- | ------------------------- | --------------------- | ------------------------ | ------------------- | ------------------------ |
-| [Anglais](README.md) | [Chinois simplifié](README.zh-CN.md) | [chinois traditionnel](README.zh-TW.md) | [hindi](README.hi.md) | [Française](README.fr.md) | [arabe](README.ar.md) | [Allemand](README.de.md) | [日本語](README.ja.md) | [Espagnol](README.es.md) |
+| 🇺🇸                 | 🇨🇳                                 | 🇹🇼                                    | 🇮🇳                  | 🇫🇷                      | 🇦🇪                 | 🇩🇪                     | 🇯🇵                     | 🇪🇸                     |
+| -------------------- | ------------------------------------ | --------------------------------------- | --------------------- | ------------------------- | -------------------- | ------------------------ | ------------------------ | ------------------------ |
+| [Anglais](README.md) | [Chinois simplifié](README.zh-CN.md) | [chinois traditionnel](README.zh-TW.md) | [hindi](README.hi.md) | [Française](README.fr.md) | [عربى](README.ar.md) | [Allemand](README.de.md) | [Japonais](README.ja.md) | [Espagnol](README.es.md) |
 
 ## Captures d'écran
 
@@ -15,10 +15,10 @@ Anti-De4dot protège les fichiers binaires .NET du décompilateur De4dot, proté
 ## Caractéristiques
 
 -   Vous pouvez supprimer l'application ou écrire le chemin d'accès au fichier.
--   Génération aléatoire de noms de type : le code utilise une instance de la classe "RandomNumberGenerator" pour générer un tableau d'octets aléatoires utilisés pour créer des noms de type uniques.
--   Utilisation de blocs "using": Le code utilise des blocs "using" pour s'assurer que les objets sont correctement nettoyés après utilisation et pour libérer des ressources telles que la mémoire utilisée par l'instance "RandomNumberGenerator".
+-   Génération aléatoire de noms de types : le code utilise une instance de la classe "RandomNumberGenerator" pour générer un tableau d'octets aléatoires utilisés pour créer des noms de types uniques.
+-   Utilisation de blocs « using » : Le code utilise des blocs « using » pour garantir que les objets sont correctement nettoyés après utilisation et pour libérer des ressources telles que la mémoire utilisée par l'instance « RandomNumberGenerator ».
 
-## Tests en cours
+## Exécution de tests
 
 Pour exécuter des tests
 
@@ -28,7 +28,7 @@ Pour exécuter des tests
 
 ## Licence
 
-[AVEC](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Auteurs
 
