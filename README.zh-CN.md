@@ -12,7 +12,7 @@ Anti-De4dot 可保护 .NET 二进制文件免遭 De4dot 反编译器的攻击，
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/1008195045960204349/1097785288748699648/New_Website_Blue_Mockup_Instagram_-_Laptop.png)
 
-## 特征
+## Features
 
 -   您可以删除应用程序或写入文件的路径。
 -   类型名称的随机生成：代码使用“RandomNumberGenerator”类的实例来生成用于创建唯一类型名称的随机字节数组。
