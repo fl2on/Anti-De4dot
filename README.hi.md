@@ -16,7 +16,7 @@
 
 -   आप एप्लिकेशन को छोड़ सकते हैं या फ़ाइल का पथ लिख सकते हैं।
 -   प्रकार के नामों की यादृच्छिक पीढ़ी: कोड यादृच्छिक बाइट्स की एक सरणी उत्पन्न करने के लिए "RandomNumberGenerator" वर्ग के एक उदाहरण का उपयोग करता है जिसका उपयोग अद्वितीय प्रकार के नाम बनाने के लिए किया जाता है।
--   "उपयोग" ब्लॉक का उपयोग: कोड यह सुनिश्चित करने के लिए "उपयोग" ब्लॉक का उपयोग करता है कि वस्तुओं को उपयोग के बाद ठीक से साफ किया जाता है और "RandomNumberGenerator" उदाहरण द्वारा उपयोग की जाने वाली मेमोरी जैसे संसाधनों को मुक्त किया जाता है।
+-   Use of "using" blocks: The code uses "using" blocks to ensure that objects are properly cleaned up after use and to free resources such as memory used by the "RandomNumberGenerator" instance.
 
 ## चल रहे परीक्षण
 
