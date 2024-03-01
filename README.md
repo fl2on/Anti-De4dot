@@ -9,7 +9,7 @@ Anti-De4dot safeguards .NET binaries from De4dot decompiler, protecting intellec
 
 ## Screenshots
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1008195045960204349/1097785288748699648/New_Website_Blue_Mockup_Instagram_-_Laptop.png)
+![6874](https://github.com/qzxtu/Anti-De4dot/assets/69091361/0a750eb0-44e3-4d15-a799-16382325b8e8)
 
 ## Features
 
