@@ -4,17 +4,17 @@ Anti-De4dot schützt .NET-Binärdateien vor dem De4dot-Dekompiler und schützt s
 
 ## Übersetzung
 
-| 🇺🇸                  | 🇨🇳                    | 🇹🇼                                         | 🇮🇳                  | 🇫🇷                        | 🇦🇪                   | 🇩🇪                    | 🇯🇵                      | 🇪🇸                     |
-| --------------------- | ----------------------- | -------------------------------------------- | --------------------- | --------------------------- | ---------------------- | ----------------------- | ------------------------- | ------------------------ |
-| [Englisch](README.md) | [简体中文](README.zh-CN.md) | [traditionelles Chinesisch](README.zh-TW.md) | [Hindi](README.hi.md) | [Französisch](README.fr.md) | [Araber](README.ar.md) | [Deutsch](README.de.md) | [japanisch](README.ja.md) | [Spanisch](README.es.md) |
+| 🇺🇸                  | 🇨🇳                                        | 🇹🇼                                         | 🇮🇳                  | 🇫🇷                        | 🇦🇪                   | 🇩🇪                    | 🇯🇵                      | 🇪🇸                     |
+| --------------------- | ------------------------------------------- | -------------------------------------------- | --------------------- | --------------------------- | ---------------------- | ----------------------- | ------------------------- | ------------------------ |
+| [Englisch](README.md) | [Vereinfachtes Chinesisch](README.zh-CN.md) | [traditionelles Chinesisch](README.zh-TW.md) | [Hindi](README.hi.md) | [Französisch](README.fr.md) | [Araber](README.ar.md) | [Deutsch](README.de.md) | [japanisch](README.ja.md) | [Spanisch](README.es.md) |
 
 ## Screenshots
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1008195045960204349/1097785288748699648/New_Website_Blue_Mockup_Instagram_-_Laptop.png)
+![6874](https://github.com/qzxtu/Anti-De4dot/assets/69091361/0a750eb0-44e3-4d15-a799-16382325b8e8)
 
 ## Merkmale
 
--   You can drop the application or write the path to the file.
+-   Sie können die Anwendung löschen oder den Pfad zur Datei schreiben.
 -   Zufällige Generierung von Typnamen: Der Code verwendet eine Instanz der Klasse „RandomNumberGenerator“, um ein Array zufälliger Bytes zu generieren, die zur Erstellung eindeutiger Typnamen verwendet werden.
 -   Verwendung von „using“-Blöcken: Der Code verwendet „using“-Blöcke, um sicherzustellen, dass Objekte nach der Verwendung ordnungsgemäß bereinigt werden und um Ressourcen wie den von der „RandomNumberGenerator“-Instanz verwendeten Speicher freizugeben.
 
