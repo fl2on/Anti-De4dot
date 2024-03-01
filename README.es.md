@@ -10,13 +10,13 @@ Anti-De4dot protege los archivos binarios .NET del descompilador De4dot, protegi
 
 ## Capturas de pantalla
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1008195045960204349/1097785288748699648/New_Website_Blue_Mockup_Instagram_-_Laptop.png)
+![6874](https://github.com/qzxtu/Anti-De4dot/assets/69091361/0a750eb0-44e3-4d15-a799-16382325b8e8)
 
 ## Características
 
 -   Puede soltar la aplicación o escribir la ruta al archivo.
 -   Generación aleatoria de nombres de tipos: el código utiliza una instancia de la clase "RandomNumberGenerator" para generar una matriz de bytes aleatorios que se utilizan para crear nombres de tipos únicos.
--   Uso de bloques "using": el código utiliza bloques "using" para garantizar que los objetos se limpien adecuadamente después de su uso y para liberar recursos como la memoria utilizada por la instancia "RandomNumberGenerator".
+-   Use of "using" blocks: The code uses "using" blocks to ensure that objects are properly cleaned up after use and to free resources such as memory used by the "RandomNumberGenerator" instance.
 
 ## Ejecución de pruebas
 
