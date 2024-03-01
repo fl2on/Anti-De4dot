@@ -1,6 +1,6 @@
 # مكافحة De4dot
 
-يقوم Anti-De4dot بحماية ثنائيات .NET من برنامج Decompiler De4dot، مما يحمي الملكية الفكرية من الوصول غير المصرح به. هذه الأداة مستقلة ولا تتطلب وحدات أو مكتبات إضافية. ومع ذلك، فهو ليس مضمونًا ويجب دمجه مع إجراءات أمنية أخرى.
+يقوم Anti-De4dot بحماية ثنائيات .NET من أداة فك التحويل البرمجي De4dot، مما يحمي الملكية الفكرية من الوصول غير المصرح به. هذه الأداة مستقلة ولا تتطلب وحدات أو مكتبات إضافية. ومع ذلك، فهو ليس مضمونًا ويجب دمجه مع إجراءات أمنية أخرى.
 
 ## ترجمة
 
@@ -10,13 +10,13 @@
 
 ## لقطات الشاشة
 
-![App Screenshot](https://cdn.discordapp.com/attachments/1008195045960204349/1097785288748699648/New_Website_Blue_Mockup_Instagram_-_Laptop.png)
+![6874](https://github.com/qzxtu/Anti-De4dot/assets/69091361/0a750eb0-44e3-4d15-a799-16382325b8e8)
 
 ## سمات
 
 -   يمكنك إسقاط التطبيق أو كتابة المسار إلى الملف.
 -   إنشاء عشوائي لأسماء الأنواع: يستخدم الكود مثيلًا لفئة "RandomNumberGenerator" لإنشاء مصفوفة من البايتات العشوائية المستخدمة لإنشاء أسماء أنواع فريدة.
--   استخدام الكتل "باستخدام": يستخدم الكود كتل "باستخدام" لضمان تنظيف الكائنات بشكل صحيح بعد الاستخدام ولتحرير الموارد مثل الذاكرة المستخدمة بواسطة مثيل "RandomNumberGenerator".
+-   Use of "using" blocks: The code uses "using" blocks to ensure that objects are properly cleaned up after use and to free resources such as memory used by the "RandomNumberGenerator" instance.
 
 ## تشغيل الاختبارات
 
