@@ -6,7 +6,7 @@ Anti-De4dot protège les binaires .NET du décompilateur De4dot, protégeant ain
 
 | 🇺🇸                 | 🇨🇳                                 | 🇹🇼                                    | 🇮🇳                  | 🇫🇷                      | 🇦🇪                  | 🇩🇪                     | 🇯🇵                     | 🇪🇸                     |
 | -------------------- | ------------------------------------ | --------------------------------------- | --------------------- | ------------------------- | --------------------- | ------------------------ | ------------------------ | ------------------------ |
-| [Anglais](README.md) | [Chinois simplifié](README.zh-CN.md) | [chinois traditionnel](README.zh-TW.md) | [hindi](README.hi.md) | [Française](README.fr.md) | [arabe](README.ar.md) | [Allemand](README.de.md) | [Japonais](README.ja.md) | [Espagnol](README.es.md) |
+| [Anglais](README.md) | [Chinois simplifié](README.zh-CN.md) | [Chinois traditionnel](README.zh-TW.md) | [hindi](README.hi.md) | [Française](README.fr.md) | [arabe](README.ar.md) | [Allemand](README.de.md) | [japonais](README.ja.md) | [Espagnol](README.es.md) |
 
 ## Captures d'écran
 
