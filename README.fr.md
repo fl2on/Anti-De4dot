@@ -6,11 +6,11 @@ Anti-De4dot protège les binaires .NET du décompilateur De4dot, protégeant ain
 
 | 🇺🇸                 | 🇨🇳                                 | 🇹🇼                                    | 🇮🇳                  | 🇫🇷                      | 🇦🇪                  | 🇩🇪                     | 🇯🇵                     | 🇪🇸                     |
 | -------------------- | ------------------------------------ | --------------------------------------- | --------------------- | ------------------------- | --------------------- | ------------------------ | ------------------------ | ------------------------ |
-| [Anglais](README.md) | [Chinois simplifié](README.zh-CN.md) | [Chinois traditionnel](README.zh-TW.md) | [hindi](README.hi.md) | [Française](README.fr.md) | [arabe](README.ar.md) | [Allemand](README.de.md) | [japonais](README.ja.md) | [Espagnol](README.es.md) |
+| [Anglais](README.md) | [Chinois simplifié](README.zh-CN.md) | [Chinois traditionnel](README.zh-TW.md) | [हिंदी](README.hi.md) | [Française](README.fr.md) | [arabe](README.ar.md) | [Allemand](README.de.md) | [japonais](README.ja.md) | [Espagnol](README.es.md) |
 
 ## Captures d'écran
 
-![6874](https://github.com/qzxtu/Anti-De4dot/assets/69091361/0a750eb0-44e3-4d15-a799-16382325b8e8)
+![6874](https://github.com/fl2on/Anti-De4dot/assets/69091361/0a750eb0-44e3-4d15-a799-16382325b8e8)
 
 ## Caractéristiques
 
@@ -32,7 +32,7 @@ Pour exécuter des tests
 
 ## Auteurs
 
--   [@qzxtu](https://www.github.com/qzxtu)
+-   [@fl2on](https://www.github.com/fl2on)
 
 ## Soutien
 
