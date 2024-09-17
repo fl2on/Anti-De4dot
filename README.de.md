@@ -4,9 +4,9 @@ Anti-De4dot schützt .NET-Binärdateien vor dem De4dot-Dekompiler und schützt s
 
 ## Übersetzung
 
-| 🇺🇸                  | 🇨🇳                                        | 🇹🇼                                         | 🇮🇳                  | 🇫🇷                        | 🇦🇪                   | 🇩🇪                    | 🇯🇵                      | 🇪🇸                     |
-| --------------------- | ------------------------------------------- | -------------------------------------------- | --------------------- | --------------------------- | ---------------------- | ----------------------- | ------------------------- | ------------------------ |
-| [Englisch](README.md) | [Vereinfachtes Chinesisch](README.zh-CN.md) | [traditionelles Chinesisch](README.zh-TW.md) | [Hindi](README.hi.md) | [Französisch](README.fr.md) | [Araber](README.ar.md) | [Deutsch](README.de.md) | [japanisch](README.ja.md) | [Spanisch](README.es.md) |
+| 🇺🇸                  | 🇨🇳                                        | 🇹🇼                                         | 🇮🇳                  | 🇫🇷                        | 🇦🇪                   | 🇩🇪                    | 🇯🇵                | 🇪🇸                     |
+| --------------------- | ------------------------------------------- | -------------------------------------------- | --------------------- | --------------------------- | ---------------------- | ----------------------- | ------------------- | ------------------------ |
+| [Englisch](README.md) | [Vereinfachtes Chinesisch](README.zh-CN.md) | [Traditionelles Chinesisch](README.zh-TW.md) | [हिंदी](README.hi.md) | [Französisch](README.fr.md) | [Araber](README.ar.md) | [Deutsch](README.de.md) | [日本語](README.ja.md) | [Spanisch](README.es.md) |
 
 ## Screenshots
 
