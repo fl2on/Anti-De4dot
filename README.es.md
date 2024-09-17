@@ -4,9 +4,9 @@ Anti-De4dot protege los archivos binarios .NET del descompilador De4dot, protegi
 
 ## Traducción
 
-| 🇺🇸                | 🇨🇳                                  | 🇹🇼                                 | 🇮🇳                  | 🇫🇷                     | 🇦🇪                  | 🇩🇪                   | 🇯🇵                    | 🇪🇸                    |
-| ------------------- | ------------------------------------- | ------------------------------------ | --------------------- | ------------------------ | --------------------- | ---------------------- | ----------------------- | ----------------------- |
-| [Inglés](README.md) | [Chino simplificado](README.zh-CN.md) | [chino tradicional](README.zh-TW.md) | [hindi](README.hi.md) | [Francésa](README.fr.md) | [árabe](README.ar.md) | [Alemán](README.de.md) | [japonés](README.ja.md) | [Español](README.es.md) |
+| 🇺🇸                | 🇨🇳                                  | 🇹🇼                                 | 🇮🇳                  | 🇫🇷                    | 🇦🇪                  | 🇩🇪                   | 🇯🇵                    | 🇪🇸                    |
+| ------------------- | ------------------------------------- | ------------------------------------ | --------------------- | ----------------------- | --------------------- | ---------------------- | ----------------------- | ----------------------- |
+| [Inglés](README.md) | [Chino simplificado](README.zh-CN.md) | [chino tradicional](README.zh-TW.md) | [hindi](README.hi.md) | [Francés](README.fr.md) | [árabe](README.ar.md) | [Alemán](README.de.md) | [japonés](README.ja.md) | [Español](README.es.md) |
 
 ## Capturas de pantalla
 
@@ -16,7 +16,7 @@ Anti-De4dot protege los archivos binarios .NET del descompilador De4dot, protegi
 
 -   Puede soltar la aplicación o escribir la ruta al archivo.
 -   Generación aleatoria de nombres de tipos: el código utiliza una instancia de la clase "RandomNumberGenerator" para generar una matriz de bytes aleatorios que se utilizan para crear nombres de tipos únicos.
--   Use of "using" blocks: The code uses "using" blocks to ensure that objects are properly cleaned up after use and to free resources such as memory used by the "RandomNumberGenerator" instance.
+-   Uso de bloques "using": el código utiliza bloques "using" para garantizar que los objetos se limpien adecuadamente después de su uso y para liberar recursos como la memoria utilizada por la instancia "RandomNumberGenerator".
 
 ## Ejecución de pruebas
 
