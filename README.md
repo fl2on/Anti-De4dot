@@ -9,7 +9,7 @@ Anti-De4dot safeguards .NET binaries from De4dot decompiler, protecting intellec
 
 ## Screenshots
 
-![6874](https://github.com/qzxtu/Anti-De4dot/assets/69091361/0a750eb0-44e3-4d15-a799-16382325b8e8)
+![6874](https://github.com/fl2on/Anti-De4dot/assets/69091361/0a750eb0-44e3-4d15-a799-16382325b8e8)
 
 ## Features
 
