@@ -4,19 +4,19 @@ Anti-De4dot schützt .NET-Binärdateien vor dem De4dot-Dekompiler und schützt s
 
 ## Übersetzung
 
-| 🇺🇸                  | 🇨🇳                                        | 🇹🇼                                         | 🇮🇳                  | 🇫🇷                        | 🇦🇪                   | 🇩🇪                    | 🇯🇵                | 🇪🇸                     |
-| --------------------- | ------------------------------------------- | -------------------------------------------- | --------------------- | --------------------------- | ---------------------- | ----------------------- | ------------------- | ------------------------ |
-| [Englisch](README.md) | [Vereinfachtes Chinesisch](README.zh-CN.md) | [Traditionelles Chinesisch](README.zh-TW.md) | [हिंदी](README.hi.md) | [Französisch](README.fr.md) | [Araber](README.ar.md) | [Deutsch](README.de.md) | [日本語](README.ja.md) | [Spanisch](README.es.md) |
+| 🇺🇸                  | 🇨🇳                                        | 🇹🇼                                         | 🇮🇳                  | 🇫🇷                        | 🇦🇪                   | 🇩🇪                    | 🇯🇵                      | 🇪🇸                     |
+| --------------------- | ------------------------------------------- | -------------------------------------------- | --------------------- | --------------------------- | ---------------------- | ----------------------- | ------------------------- | ------------------------ |
+| [Englisch](README.md) | [Vereinfachtes Chinesisch](README.zh-CN.md) | [Traditionelles Chinesisch](README.zh-TW.md) | [Hindi](README.hi.md) | [Französisch](README.fr.md) | [Araber](README.ar.md) | [Deutsch](README.de.md) | [japanisch](README.ja.md) | [Spanisch](README.es.md) |
 
 ## Screenshots
 
-![6874](https://github.com/qzxtu/Anti-De4dot/assets/69091361/0a750eb0-44e3-4d15-a799-16382325b8e8)
+![6874](https://github.com/fl2on/Anti-De4dot/assets/69091361/0a750eb0-44e3-4d15-a799-16382325b8e8)
 
 ## Merkmale
 
 -   Sie können die Anwendung löschen oder den Pfad zur Datei schreiben.
 -   Zufällige Generierung von Typnamen: Der Code verwendet eine Instanz der Klasse „RandomNumberGenerator“, um ein Array zufälliger Bytes zu generieren, die zur Erstellung eindeutiger Typnamen verwendet werden.
--   Verwendung von „using“-Blöcken: Der Code verwendet „using“-Blöcke, um sicherzustellen, dass Objekte nach der Verwendung ordnungsgemäß bereinigt werden und um Ressourcen wie den von der „RandomNumberGenerator“-Instanz verwendeten Speicher freizugeben.
+-   Use of "using" blocks: The code uses "using" blocks to ensure that objects are properly cleaned up after use and to free resources such as memory used by the "RandomNumberGenerator" instance.
 
 ## Ausführen von Tests
 
@@ -32,7 +32,7 @@ Um Tests durchzuführen
 
 ## Autoren
 
--   [@qzxtu](https://www.github.com/qzxtu)
+-   [@fl2on](https://www.github.com/fl2on)
 
 ## Unterstützung
 
