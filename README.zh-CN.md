@@ -1,6 +1,6 @@
 # 抗De4dot
 
-Anti-De4dot 可保护 .NET 二进制文件免遭 De4dot 反编译器的攻击，从而保护知识产权免遭未经授权的访问。该工具是独立的，不需要额外的模块或库。然而，它并不是万无一失的，应该与其他安全措施结合起来。
+Anti-De4dot 可保护 .NET 二进制文件免受 De4dot 反编译器的侵害，从而保护知识产权免遭未经授权的访问。该工具是独立的，不需要额外的模块或库。然而，它并不是万无一失的，应该与其他安全措施结合起来。
 
 ## 翻译
 
@@ -16,7 +16,7 @@ Anti-De4dot 可保护 .NET 二进制文件免遭 De4dot 反编译器的攻击，
 
 -   您可以删除应用程序或写入文件的路径。
 -   类型名称的随机生成：代码使用“RandomNumberGenerator”类的实例来生成用于创建唯一类型名称的随机字节数组。
--   Use of "using" blocks: The code uses "using" blocks to ensure that objects are properly cleaned up after use and to free resources such as memory used by the "RandomNumberGenerator" instance.
+-   使用“using”块：代码使用“using”块来确保对象在使用后得到正确清理，并释放资源，例如“RandomNumberGenerator”实例使用的内存。
 
 ## 运行测试
 
