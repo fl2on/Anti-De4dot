@@ -16,7 +16,7 @@ Anti-De4dot schützt .NET-Binärdateien vor dem De4dot-Dekompiler und schützt s
 
 -   Sie können die Anwendung löschen oder den Pfad zur Datei schreiben.
 -   Zufällige Generierung von Typnamen: Der Code verwendet eine Instanz der Klasse „RandomNumberGenerator“, um ein Array zufälliger Bytes zu generieren, die zur Erstellung eindeutiger Typnamen verwendet werden.
--   Use of "using" blocks: The code uses "using" blocks to ensure that objects are properly cleaned up after use and to free resources such as memory used by the "RandomNumberGenerator" instance.
+-   Verwendung von „using“-Blöcken: Der Code verwendet „using“-Blöcke, um sicherzustellen, dass Objekte nach der Verwendung ordnungsgemäß bereinigt werden und um Ressourcen wie den von der „RandomNumberGenerator“-Instanz verwendeten Speicher freizugeben.
 
 ## Ausführen von Tests
 
@@ -36,5 +36,5 @@ Um Tests durchzuführen
 
 ## Unterstützung
 
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/nova355killer)  
+ [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/nova355killer)  
 [![Ko-Fi](https://img.shields.io/badge/kofi-00457C?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nova355)
