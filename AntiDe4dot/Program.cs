@@ -144,13 +144,11 @@ namespace AntiDe4dot
                     }
                     else
                     {
-                        var assemblyCompanyRef =
-                            module.CorLibTypes.GetTypeRef("System.Reflection", "AssemblyCompanyAttribute");
+                        var assemblyCompanyRef = module.CorLibTypes.GetTypeRef("System.Reflection", "AssemblyCompanyAttribute");
                         var assemblyCompanyTypeDef = assemblyCompanyRef.ResolveTypeDef();
                         var assemblyCompanyCtor = assemblyCompanyTypeDef.FindConstructors().Single();
                         var assemblyCompanyAttrType = new CustomAttribute(assemblyCompanyCtor);
-                        assemblyCompanyAttrType.ConstructorArguments.Add(new CAArgument(module.CorLibTypes.String,
-                            "Qzxtu Anti-D4dot"));
+                        assemblyCompanyAttrType.ConstructorArguments.Add(new CAArgument(module.CorLibTypes.String, "Qzxtu Anti-D4dot"));
                         module.Assembly.CustomAttributes.Add(assemblyCompanyAttrType);
                     }
                 }
