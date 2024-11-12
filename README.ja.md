@@ -15,7 +15,7 @@ Anti-De4dot は、De4dot デコンパイラーから .NET バイナリを保護�
 ## 特徴
 
 -   アプリケーションをドロップするか、ファイルへのパスを書き込むことができます。
--   Random generation of type names: The code uses an instance of the 	"RandomNumberGenerator" class to generate an array of random bytes that are used to create unique type names.
+-   型名のランダム生成: コードは、「RandomNumberGenerator」クラスのインスタンスを使用して、一意の型名の作成に使用されるランダムなバイトの配列を生成します。
 -   "using" ブロックの使用: コードは、"using" ブロックを使用して、オブジェクトが使用後に適切にクリーンアップされることを保証し、「RandomNumberGenerator」インスタンスによって使用されるメモリなどのリソースを解放します。
 
 ## テストの実行
